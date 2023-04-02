@@ -4224,3 +4224,32 @@ input, select, textarea {
 		}
 
 	}
+
+
+	/* add font sizes p*/
+
+	.font__p{
+		opacity: 1;
+		font-family: Raleway, Helvetica, sans-serif;
+		font-size: 1em;
+		letter-spacing: 0.1em;
+		line-height: 2;
+	}
+	.p__author span{
+		font-weight: bold;
+	}
+	.article__p figcaption{
+		font-size: 15px;
+		margin-bottom: 40px;
+	}
+	
+	@media screen and (max-width: 736px) {
+		.font__p{
+		  font-size: 0.9em;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.font__p{
+		  font-size: 0.8em;
+		}
+	}
